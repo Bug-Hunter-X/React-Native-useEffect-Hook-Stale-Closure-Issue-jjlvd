@@ -1,0 +1,1 @@
+This error occurs when using the `useEffect` hook in React Native with an empty dependency array `[]`.  The effect runs only once after the initial render, similar to `componentDidMount` in class components. However, if the effect's logic relies on values from state or props that might change later, this setup will not trigger re-execution, leading to unexpected behavior.
